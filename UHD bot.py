@@ -7,8 +7,6 @@ import random
 
 client = discord.Client()
 
-worker:node UHD bot.py
-
 @client.event
 async def on_ready():
     print ("active")
